@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="245be11f-1582-4187-bde2-a9831fb90232" name="Makigo" url="http://makigo.mesta.io">
+        <fileTransfer rootFolder="/domains/makigo.mesta.io/public_html" host="makigo.mesta.io" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
