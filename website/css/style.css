@@ -1,0 +1,109 @@
+@font-face {
+    font-family: "makigo";
+    src: url("../fonts/makigo.woff2") format('woff2');
+}
+
+@font-face {
+    font-family: "lobster";
+    src: url("../fonts/lobster.woff2") format('woff2');
+}
+
+@font-face {
+    font-family: "museo-slab";
+    src: url("../fonts/museo-slab.woff") format('woff');
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px; /* Margin bottom by footer height */
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 60px; /* Set the fixed height of the footer here */
+    line-height: 60px; /* Vertically center the text there */
+    background-color: #f5f5f5;
+}
+
+.navbar {
+    height: 84px;
+    padding: 0;
+    background: rgba(255, 255, 255, 0.9);
+}
+
+.navbar .nav-link, .navbar .dropdown-item {
+    color: rgb(88, 161, 14);
+    font: normal normal normal 15px makigo, cursive;
+}
+
+.navbar .nav-link:hover, .navbar .dropdown-item:hover {
+    color: rgb(153, 87, 14);
+}
+
+.navbar-brand > img {
+    height: 63px
+}
+
+#main {
+    padding-top: 84px;
+    background-image: url("../media/background.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#main-container {
+    background: white;
+}
+
+.footer {
+    height: auto;
+    color: rgb(190, 190, 190);
+}
+
+.footer #sitemap {
+    line-height: 2em;
+    background: rgba(191, 240, 121);
+    height: auto;
+    padding: 1em;
+}
+
+.footer #sitemap h2 {
+    color: rgb(38, 111, 102);
+    font: normal normal normal 35px/1.4em lobster, cursive;
+}
+
+.footer #sitemap a {
+    text-decoration: none;
+    color: rgba(99, 90, 80);
+    font: normal normal normal 16px/1.4em museo-slab, serif;
+    padding: 0;
+}
+
+.footer #social {
+    background-color: rgba(50, 50, 50);
+    padding: 5px;
+}
+
+.footer #social a {
+    color: rgb(190, 190, 190);
+    text-decoration: none;
+}
+
+.footer #social a:hover {
+    text-decoration: underline;
+}
+
+.footer #social #logo {
+    height: 200px;
+}
+
+.footer #social .media {
+    border: 2px solid rgb(190, 190, 190);
+    height: 44px;
+}
