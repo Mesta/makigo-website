@@ -1,0 +1,44 @@
+#main #header {
+    background-image: url("../media/index-header.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#main .container .container {
+    padding: 2em 0;
+}
+
+#main #header {
+    text-shadow: rgba(0, 0, 0, 0.498039) -1px -1px 0px, rgba(0, 0, 0, 0.498039) -1px 1px 0px, rgba(0, 0, 0, 0.498039) 1px 1px 0px, rgba(0, 0, 0, 0.498039) 1px -1px 0px;
+    font: normal normal normal 1em lobster, cursive;
+    color: rgb(38, 111, 102);
+}
+
+#main #header h1 {
+    font: normal normal normal 7em makigo, cursive;
+    color: white;
+}
+
+#main #header #motto {
+    font: normal normal normal 2em makigo, cursive;
+    color: white;
+}
+
+#main .btn {
+    background: rgb(157, 197, 101);
+    border-radius: 0;
+    color: white;
+    font: normal normal normal 20px/1.6em museo-slab, serif;
+    margin: 2em;
+    padding: 2em;
+}
+
+#main .btn:hover {
+    background: rgb(95, 128, 49);
+    border-radius: 0;
+    color: white;
+    font: normal normal normal 20px/1.6em museo-slab, serif;
+    margin: 2em;
+    padding: 2em;
+}
