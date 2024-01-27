@@ -45,6 +45,11 @@ html {
     height: 63px
 }
 
+.navbar .dropdown-item.active {
+    background: inherit;
+    color: rgb(153, 87, 14);
+}
+
 #main {
     padding-top: 84px;
     background-image: url("../media/background.jpg");

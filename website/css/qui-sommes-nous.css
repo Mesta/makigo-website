@@ -1,0 +1,58 @@
+#main #header {
+    background-image: url("../media/index-header.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#main .container .container {
+    padding: 2em 0;
+}
+
+#main .banner {
+    height: 300px;
+    text-shadow: rgba(0, 0, 0, 0.498039) -1px -1px 0px, rgba(0, 0, 0, 0.498039) -1px 1px 0px, rgba(0, 0, 0, 0.498039) 1px 1px 0px, rgba(0, 0, 0, 0.498039) 1px -1px 0px;
+    font: normal normal normal 1em lobster, cursive;
+    color: rgb(38, 111, 102);
+
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#main .banner h1 {
+    font: normal normal normal 4em makigo, cursive;
+    color: white;
+    line-height: 240px;
+}
+
+#main #first {
+    background-image: url("../media/qui-sommes-nous/first.jpg");
+}
+
+#main #third {
+    background-image: url("../media/qui-sommes-nous/third.jpg");
+}
+
+#main #fifth {
+    background-image: url("../media/qui-sommes-nous/fifth.jpg");
+}
+
+.cross {
+    height: 200px;
+}
+
+.cross .number {
+    line-height: 1em;
+    font-size: 12em;
+    color: rgb(99, 90, 80);
+}
+
+#membres_internes {
+    border: 3px solid rgb(157, 197, 101);
+    margin: 2em;
+}
+#membres_internes:hover {
+    border: 3px solid rgb(95, 128, 49);
+    background: rgb(95, 128, 49);
+}
