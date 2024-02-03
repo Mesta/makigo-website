@@ -18,15 +18,6 @@ html {
     min-height: 100%;
 }
 
-#main {
-    font: normal normal normal 20px/1.6em museo-slab, serif;
-}
-
-#main #main-container {
-    padding: 0;
-    background: white;
-}
-
 .navbar {
     height: 84px;
     padding: 0;
@@ -52,11 +43,17 @@ html {
 }
 
 #main {
-    padding-top: 84px;
+    font: normal normal normal 20px/1.6em museo-slab, serif;
+    margin-top: 84px;
     background-image: url("../media/background.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+}
+
+#main #main-container {
+    padding: 0;
+    background: white;
 }
 
 #main .container .container {
